@@ -16,7 +16,7 @@ const Home: NextPageWithLayout = () => {
   const dispatch = useAppDispatch();
   return (
     <>
-      <div className="home">
+      <div className="home bg-gray-200">
         <WelcomeProvider>
           <TitleComponent />
           <Input />
