@@ -17,7 +17,7 @@ const HeaderMenu = () => {
                 {menu.name}
               </a>
               {menu.items ? (
-                <div className="hidden absolute left-0 top-14 transition group-hover:!block bg-white shadow-t-sm">
+                <div className="hidden absolute left-0 top-14 transition group-hover:!block group-hover:animate-backInRight group-hover:animate-faster bg-white shadow-t-sm">
                   <ul className="list-none py-2 px-5">
                     {menu.items.map((item) => {
                       return (

@@ -45,8 +45,8 @@ const HeaderMenuMobile = () => {
         }`}
       ></div>
       <div
-        className={`min-w-[40vw] bg-white h-screen absolute top-0 right-0 ${
-          menuShow ? 'block' : 'hidden'
+        className={`min-w-[40vw] bg-white h-screen absolute top-0 right-0 select-none ${
+          menuShow ? 'block animate-fadeInRight animate-faster' : 'hidden'
         }`}
       >
         <div className="w-full px-3 py-4 bg-orange-500 text-white flex items-center">
